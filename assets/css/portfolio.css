@@ -1,0 +1,76 @@
+.portfolio {
+  background: url(../images/Group-1317.png) no-repeat;
+  background-size: cover;
+  background-position: right;
+  overflow: hidden;
+  padding: 40px 0px 100px;
+}
+
+.portfolio-heading {
+  width: fit-content;
+  position: relative;
+  margin: 10px auto 30px auto;
+}
+
+.portfolio-heading:after {
+  content: '';
+  position: absolute;
+  background: url(../images/Group-259.png) no-repeat;
+  background-size: contain;
+  width: 125%;
+  height: 130%;
+  left: -28px;
+  top: 10px;
+}
+
+.modal_btn {
+  background: transparent;
+  border: none;
+  padding: 0 !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+video#video1 {
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border: 1px solid transparent !important;
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+  background: transparent;
+  border: 1px solid transparent !important;
+  box-shadow: none;
+}
+
+.modal_btn_6 {
+  background: transparent;
+  border: none;
+  padding: 0 !important;
+  position: absolute;
+  left: 280px;
+  top: 200px;
+}
+
+.modal_btn img {
+  width: 20%;
+}
